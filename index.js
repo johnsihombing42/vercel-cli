@@ -7,8 +7,7 @@ app.use(express.json());
 app.get("/", (req, res) => {
   res.status(200).json({
     status: "Ok",
-    code: 200,
-    message: "Testing build docker image",
+    message: "Testing build docker image CLI",
   });
 });
 //xaJypOR7LBCDRvBsHzsxSZ4E
